@@ -1,7 +1,7 @@
-import * as React from 'react'
+import React, { FC } from 'react'
 
-function App() {
-	return <div className='App'>Hello world!</div>
+const App: FC<any> = () => {
+    return <div>Hello world</div>
 }
 
 export default App
