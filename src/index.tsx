@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+import App from './App'
 import Login from './layout/Login/Login'
 import Registration from './layout/Registration/Registration'
+import HomePage from './layout/Home/HomePage'
 
 import 'normalize.css'
-
 import './index.css'
 
 const router = createBrowserRouter([
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
             {
                 path: 'registration',
                 element: <Registration />,
+            },
+            {
+                path: '/',
+                element: <HomePage />,
             },
         ],
     },

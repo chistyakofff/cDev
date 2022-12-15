@@ -1,0 +1,29 @@
+.form_wrapper {
+    height: 260px;
+    width: 230px;
+    margin: 0 auto;
+}
+
+.form_input {
+    margin-top: 20px;
+    width: 260px;
+    height: 32px;
+}
+
+.btn_bts {
+    margin-top: 20px;
+    width: 260px;
+    height: 32px;
+
+    background: #58feae;
+    border: 1.3px solid #202c43;
+    backdrop-filter: blur(1.95px);
+    border-radius: 2px;
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 15.6px;
+    line-height: 18px;
+    color: #000000;
+}
