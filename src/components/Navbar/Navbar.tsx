@@ -1,11 +1,11 @@
 import React, { FC } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
+import styles from './Navbar.module.css'
 
 const Navbar: FC<any> = () => {
     return (
         <div>
-            <h1>Navbar</h1>
-            <ul>
+            <ul className={styles.nav}>
                 <li>
                     <Link to="/"> Home </Link>
                 </li>
@@ -16,6 +16,7 @@ const Navbar: FC<any> = () => {
                     <Link to="/login"> Login </Link>
                 </li>
             </ul>
+            <Outlet />
         </div>
     )
 }
