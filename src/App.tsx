@@ -6,6 +6,8 @@ const App: FC<any> = () => {
     return (
         <div>
             <Navbar />
+            <h2>cDev</h2>
+            <h4>Registration</h4>
         </div>
     )
 }
