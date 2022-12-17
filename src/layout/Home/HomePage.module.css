@@ -1,0 +1,30 @@
+.main {
+    height: 580px;
+    width: 100vw;
+    color: #524d6e;
+    background-color: #cac7ee;
+}
+
+.main__info {
+    padding-top: 100px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.main__advantagesList {
+    display: flex;
+    column-gap: 20px;
+}
+
+.main__buttonRegisterWrapper {
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: #524d6e;
+    border: none;
+    border-radius: 4px;
+}
+
+.main__buttonRegister {
+    color: white;
+}
