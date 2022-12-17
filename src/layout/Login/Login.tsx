@@ -4,7 +4,7 @@ import LoginForm from '../../components/Navbar/common/LoginForm'
 
 const Login: FC<any> = () => {
     return (
-        <div className={styles.wrapper}>
+        <div className="wrapper">
             <h2>cDev</h2>
             <h4>Login</h4>
             <LoginForm />
