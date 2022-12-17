@@ -1,0 +1,28 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #524D6E;
+    height: auto;
+    width: 100%;
+    color: #fff;
+	text-align: center;
+}
+
+.footer_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.footer_nav a {
+	text-decoration: none;
+	color: #fff
+}
+
+.footer_nav a:hover {
+	text-decoration: none;
+	color: deepskyblue
+}

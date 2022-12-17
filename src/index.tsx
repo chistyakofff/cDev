@@ -6,6 +6,9 @@ import App from './App'
 import Login from './layout/Login/Login'
 import Registration from './layout/Registration/Registration'
 import HomePage from './layout/Home/HomePage'
+import Contact from './pages/Contact/Contact'
+import Terms from './pages/Terms/Terms'
+import About from './pages/About/About'
 
 import 'normalize.css'
 import './index.css'
@@ -26,6 +29,18 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <HomePage />,
+            },
+            {
+                path: '/contact',
+                element: <Contact />,
+            },
+            {
+                path: '/about',
+                element: <About />,
+            },
+            {
+                path: '/terms',
+                element: <Terms />,
             },
         ],
     },
