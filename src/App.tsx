@@ -7,7 +7,6 @@ const App: FC<any> = () => {
     return (
         <div>
             <Navbar />
-            <Footer />
         </div>
     )
 }

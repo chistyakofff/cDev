@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
 * {
-	font-family: 'Play', sans-serif;
+    font-family: 'Play', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .wrapper {
