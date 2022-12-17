@@ -5,7 +5,7 @@ const Registration: FC<any> = () => {
     return (
         <div className={styles.wrapper}>
             <h2>cDev</h2>
-            <h4>Регистрация</h4>
+            <h4>Registration</h4>
             <RegisterForm />
         </div>
     )
