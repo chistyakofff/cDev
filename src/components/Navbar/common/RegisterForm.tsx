@@ -1,13 +1,19 @@
-import React, { FC, useState } from 'react'
+import React, { FC, useEffect, useState } from 'react'
 import styles from './Form.module.css'
 const RegisterForm: FC<any> = () => {
     const [data, setData] = useState({})
+	const [isRegistered, setIsRegistred] = useState(false)
 
     const handleChange = (e: React.SyntheticEvent<EventTarget>) => {
         const target = e.target as HTMLInputElement
         setData((prevState) => ({ ...prevState, [target.name]: target.value }))
     }
 
+useEffect(() => {
+	if (localStorage.getItem('login')) {
+		setIsRegistred(true)
+	}
+},[])
     return (
         <form action="" className={styles.form_wrapper}>
             <div>

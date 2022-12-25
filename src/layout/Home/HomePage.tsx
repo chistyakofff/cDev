@@ -28,7 +28,7 @@ const HomePage: FC<any> = () => {
                         <button className={styles.main__buttonRegisterWrapper}>
                             <Link
                                 className={styles.main__buttonRegister}
-                                to="/registration"
+                                to="/tasks"
                             >
                                 Get Started
                             </Link>
